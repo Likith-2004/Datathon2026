@@ -1,0 +1,123 @@
+station_id,station_name,district,latitude,longitude
+PS0001,Bengaluru Urban Town PS,Bengaluru Urban,12.9141,77.57232
+PS0002,Bengaluru Urban City PS,Bengaluru Urban,12.83884,77.45106
+PS0003,Bengaluru Urban Rural PS,Bengaluru Urban,13.0691,77.75735
+PS0004,Bengaluru Rural Town PS,Bengaluru Rural,13.27596,77.70852
+PS0005,Bengaluru Rural City PS,Bengaluru Rural,13.328,77.51069
+PS0006,Bengaluru Rural Rural PS,Bengaluru Rural,13.32797,77.77266
+PS0007,Mysuru Town PS,Mysuru,12.2915,76.82716
+PS0008,Mysuru City PS,Mysuru,11.98143,76.73803
+PS0009,Mysuru Rural PS,Mysuru,12.30625,76.60352
+PS0010,Mysuru East PS,Mysuru,12.30681,76.40089
+PS0011,Mysuru West PS,Mysuru,12.26944,76.68225
+PS0012,Dakshina Kannada Town PS,Dakshina Kannada,13.09145,74.79381
+PS0013,Dakshina Kannada City PS,Dakshina Kannada,12.81708,74.79579
+PS0014,Dakshina Kannada Rural PS,Dakshina Kannada,13.02395,74.89545
+PS0015,Dakshina Kannada East PS,Dakshina Kannada,12.85053,74.91759
+PS0016,Belagavi Town PS,Belagavi,15.86135,74.61394
+PS0017,Belagavi City PS,Belagavi,15.76545,74.45838
+PS0018,Belagavi Rural PS,Belagavi,15.80265,74.32208
+PS0019,Belagavi East PS,Belagavi,15.88523,74.52903
+PS0020,Hubballi-Dharwad Town PS,Hubballi-Dharwad,15.36531,75.09585
+PS0021,Hubballi-Dharwad City PS,Hubballi-Dharwad,15.19486,75.07352
+PS0022,Hubballi-Dharwad Rural PS,Hubballi-Dharwad,15.32357,75.02773
+PS0023,Hubballi-Dharwad East PS,Hubballi-Dharwad,15.34535,75.17249
+PS0024,Kalaburagi Town PS,Kalaburagi,17.55604,76.85525
+PS0025,Kalaburagi City PS,Kalaburagi,17.36061,76.82537
+PS0026,Kalaburagi Rural PS,Kalaburagi,17.09945,76.83112
+PS0027,Ballari Town PS,Ballari,15.14663,77.21699
+PS0028,Ballari City PS,Ballari,15.11632,76.95759
+PS0029,Ballari Rural PS,Ballari,15.13523,76.78116
+PS0030,Vijayapura Town PS,Vijayapura,16.96734,75.80023
+PS0031,Vijayapura City PS,Vijayapura,16.92512,75.60087
+PS0032,Vijayapura Rural PS,Vijayapura,16.99854,75.54178
+PS0033,Vijayapura East PS,Vijayapura,16.90062,75.97285
+PS0034,Vijayapura West PS,Vijayapura,16.71134,75.64204
+PS0035,Vijayapura North PS,Vijayapura,16.84216,75.64958
+PS0036,Tumakuru Town PS,Tumakuru,13.15182,77.11043
+PS0037,Tumakuru City PS,Tumakuru,13.21042,77.15903
+PS0038,Tumakuru Rural PS,Tumakuru,13.22757,77.28819
+PS0039,Shivamogga Town PS,Shivamogga,13.83591,75.52945
+PS0040,Shivamogga City PS,Shivamogga,14.02752,75.4204
+PS0041,Shivamogga Rural PS,Shivamogga,13.9572,75.72496
+PS0042,Davanagere Town PS,Davanagere,14.2715,75.94396
+PS0043,Davanagere City PS,Davanagere,14.49559,76.01562
+PS0044,Davanagere Rural PS,Davanagere,14.31597,75.76335
+PS0045,Raichur Town PS,Raichur,16.27023,77.38194
+PS0046,Raichur City PS,Raichur,16.23766,77.38787
+PS0047,Raichur Rural PS,Raichur,16.126,77.37417
+PS0048,Raichur East PS,Raichur,16.24277,77.26058
+PS0049,Bidar Town PS,Bidar,18.13719,77.58696
+PS0050,Bidar City PS,Bidar,17.77034,77.60889
+PS0051,Bidar Rural PS,Bidar,17.79634,77.62455
+PS0052,Bidar East PS,Bidar,18.05233,77.43162
+PS0053,Chikkamagaluru Town PS,Chikkamagaluru,13.43171,75.82153
+PS0054,Chikkamagaluru City PS,Chikkamagaluru,13.41475,75.99962
+PS0055,Chikkamagaluru Rural PS,Chikkamagaluru,13.28665,75.68155
+PS0056,Hassan Town PS,Hassan,12.90046,76.0025
+PS0057,Hassan City PS,Hassan,12.99795,76.14134
+PS0058,Hassan Rural PS,Hassan,13.0404,76.19966
+PS0059,Hassan East PS,Hassan,13.00876,76.27482
+PS0060,Mandya Town PS,Mandya,12.49244,77.22222
+PS0061,Mandya City PS,Mandya,12.59928,76.79294
+PS0062,Mandya Rural PS,Mandya,12.39569,76.9537
+PS0063,Mandya East PS,Mandya,12.49738,76.98148
+PS0064,Mandya West PS,Mandya,12.58099,76.88706
+PS0065,Mandya North PS,Mandya,12.42258,76.71402
+PS0066,Kolar Town PS,Kolar,13.08312,78.23257
+PS0067,Kolar City PS,Kolar,13.16239,77.98031
+PS0068,Kolar Rural PS,Kolar,13.15748,78.17604
+PS0069,Kolar East PS,Kolar,13.03064,78.14825
+PS0070,Chikkaballapur Town PS,Chikkaballapur,13.44209,77.59434
+PS0071,Chikkaballapur City PS,Chikkaballapur,13.47803,77.79879
+PS0072,Chikkaballapur Rural PS,Chikkaballapur,13.56507,77.85796
+PS0073,Chikkaballapur East PS,Chikkaballapur,13.26978,77.61896
+PS0074,Chikkaballapur West PS,Chikkaballapur,13.4969,77.79315
+PS0075,Chikkaballapur North PS,Chikkaballapur,13.49691,78.19383
+PS0076,Chitradurga Town PS,Chitradurga,14.29811,76.53477
+PS0077,Chitradurga City PS,Chitradurga,14.34408,76.47667
+PS0078,Chitradurga Rural PS,Chitradurga,14.19177,76.48958
+PS0079,Chitradurga East PS,Chitradurga,14.13686,76.37008
+PS0080,Chitradurga West PS,Chitradurga,14.17136,76.40832
+PS0081,Koppal Town PS,Koppal,15.63246,75.93053
+PS0082,Koppal City PS,Koppal,15.43705,75.96107
+PS0083,Koppal Rural PS,Koppal,15.29807,76.28527
+PS0084,Gadag Town PS,Gadag,15.43771,75.50067
+PS0085,Gadag City PS,Gadag,15.34416,75.71155
+PS0086,Gadag Rural PS,Gadag,15.34236,75.65598
+PS0087,Gadag East PS,Gadag,15.43547,75.55181
+PS0088,Haveri Town PS,Haveri,15.05077,75.48007
+PS0089,Haveri City PS,Haveri,14.55048,75.42637
+PS0090,Haveri Rural PS,Haveri,14.71409,75.50629
+PS0091,Haveri East PS,Haveri,14.6984,75.39023
+PS0092,Haveri West PS,Haveri,14.8541,75.50789
+PS0093,Haveri North PS,Haveri,14.64946,75.36386
+PS0094,Bagalkot Town PS,Bagalkot,16.11211,75.5883
+PS0095,Bagalkot City PS,Bagalkot,16.38095,75.7153
+PS0096,Bagalkot Rural PS,Bagalkot,16.01779,75.77684
+PS0097,Bagalkot East PS,Bagalkot,16.42376,75.7906
+PS0098,Bagalkot West PS,Bagalkot,15.98678,75.60859
+PS0099,Udupi Town PS,Udupi,13.49293,74.65718
+PS0100,Udupi City PS,Udupi,13.39416,74.83506
+PS0101,Udupi Rural PS,Udupi,13.22967,74.73496
+PS0102,Udupi East PS,Udupi,12.95195,74.61917
+PS0103,Udupi West PS,Udupi,13.31059,74.59237
+PS0104,Uttara Kannada Town PS,Uttara Kannada,14.98589,74.53338
+PS0105,Uttara Kannada City PS,Uttara Kannada,14.73719,74.72069
+PS0106,Uttara Kannada Rural PS,Uttara Kannada,14.96295,74.5327
+PS0107,Uttara Kannada East PS,Uttara Kannada,14.92958,74.70623
+PS0108,Chamarajanagar Town PS,Chamarajanagar,11.80582,77.00105
+PS0109,Chamarajanagar City PS,Chamarajanagar,11.94749,76.87357
+PS0110,Chamarajanagar Rural PS,Chamarajanagar,11.93198,76.89936
+PS0111,Chamarajanagar East PS,Chamarajanagar,11.93722,77.02506
+PS0112,Kodagu Town PS,Kodagu,12.61472,75.58966
+PS0113,Kodagu City PS,Kodagu,12.68036,75.50395
+PS0114,Kodagu Rural PS,Kodagu,12.40619,75.8088
+PS0115,Kodagu East PS,Kodagu,12.45812,75.66348
+PS0116,Kodagu West PS,Kodagu,12.39943,75.67904
+PS0117,Ramanagara Town PS,Ramanagara,12.65098,77.38315
+PS0118,Ramanagara City PS,Ramanagara,12.76454,77.19805
+PS0119,Ramanagara Rural PS,Ramanagara,12.82965,77.31808
+PS0120,Yadgir Town PS,Yadgir,16.86754,77.21556
+PS0121,Yadgir City PS,Yadgir,16.67052,77.07278
+PS0122,Yadgir Rural PS,Yadgir,16.85968,77.21324

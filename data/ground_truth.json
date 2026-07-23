@@ -1,0 +1,342 @@
+{
+  "description": "Ground-truth record of every pattern deliberately injected into the synthetic dataset, for validating that the analytics/visualizations actually recover it.",
+  "serial_offender_ring": [
+    {
+      "true_identity": "OFF00066",
+      "all_records": [
+        "OFF00066",
+        "OFF00651",
+        "OFF00652"
+      ],
+      "shared_mo": {
+        "mo_transport": "On foot",
+        "mo_entry": "Deception/impersonation",
+        "mo_weapon": "None",
+        "mo_target": "Online account",
+        "mo_timeband": "Afternoon (12-17)"
+      }
+    },
+    {
+      "true_identity": "OFF00485",
+      "all_records": [
+        "OFF00485",
+        "OFF00653",
+        "OFF00654"
+      ],
+      "shared_mo": {
+        "mo_transport": "Two-wheeler",
+        "mo_entry": "Online/remote",
+        "mo_weapon": "None",
+        "mo_target": "Residence",
+        "mo_timeband": "Afternoon (12-17)"
+      }
+    },
+    {
+      "true_identity": "OFF00562",
+      "all_records": [
+        "OFF00562",
+        "OFF00655",
+        "OFF00656"
+      ],
+      "shared_mo": {
+        "mo_transport": "None",
+        "mo_entry": "Online/remote",
+        "mo_weapon": "None",
+        "mo_target": "Residence",
+        "mo_timeband": "Morning (6-12)"
+      }
+    },
+    {
+      "true_identity": "OFF00056",
+      "all_records": [
+        "OFF00056",
+        "OFF00657",
+        "OFF00658"
+      ],
+      "shared_mo": {
+        "mo_transport": "On foot",
+        "mo_entry": "N/A",
+        "mo_weapon": "Knife",
+        "mo_target": "Commercial estab.",
+        "mo_timeband": "Night (21-24)"
+      }
+    },
+    {
+      "true_identity": "OFF00027",
+      "all_records": [
+        "OFF00027",
+        "OFF00659",
+        "OFF00660"
+      ],
+      "shared_mo": {
+        "mo_transport": "Two-wheeler",
+        "mo_entry": "Forced entry",
+        "mo_weapon": "Chemical/spray",
+        "mo_target": "Individual - known",
+        "mo_timeband": "Morning (6-12)"
+      }
+    }
+  ],
+  "true_hotspot_stations": [
+    "PS0019",
+    "PS0021",
+    "PS0033",
+    "PS0034",
+    "PS0038",
+    "PS0054",
+    "PS0058",
+    "PS0075",
+    "PS0090",
+    "PS0091",
+    "PS0117"
+  ],
+  "anomaly_weeks": [
+    {
+      "station_id": "PS0075",
+      "week_start": "2023-06-12",
+      "crime_type": "Cybercrime",
+      "extra_incidents": 11
+    },
+    {
+      "station_id": "PS0033",
+      "week_start": "2023-06-19",
+      "crime_type": "Chain Snatching",
+      "extra_incidents": 12
+    },
+    {
+      "station_id": "PS0019",
+      "week_start": "2024-10-14",
+      "crime_type": "Narcotics",
+      "extra_incidents": 13
+    },
+    {
+      "station_id": "PS0058",
+      "week_start": "2025-12-08",
+      "crime_type": "Robbery",
+      "extra_incidents": 9
+    }
+  ],
+  "n_gangs": 22,
+  "fragmenting_gangs": [
+    {
+      "gang_id": "GANG002",
+      "fragment_event_date": "2025-04-22",
+      "breakaway_members": [
+        "OFF00455",
+        "OFF00635"
+      ],
+      "stayed_members": [
+        "OFF00088",
+        "OFF00135",
+        "OFF00159",
+        "OFF00169",
+        "OFF00312",
+        "OFF00385"
+      ]
+    },
+    {
+      "gang_id": "GANG003",
+      "fragment_event_date": "2023-07-27",
+      "breakaway_members": [
+        "OFF00128",
+        "OFF00406"
+      ],
+      "stayed_members": [
+        "OFF00002",
+        "OFF00099",
+        "OFF00200",
+        "OFF00392",
+        "OFF00508"
+      ]
+    },
+    {
+      "gang_id": "GANG004",
+      "fragment_event_date": "2023-12-31",
+      "breakaway_members": [
+        "OFF00143"
+      ],
+      "stayed_members": [
+        "OFF00098",
+        "OFF00160",
+        "OFF00336",
+        "OFF00439",
+        "OFF00516"
+      ]
+    },
+    {
+      "gang_id": "GANG006",
+      "fragment_event_date": "2024-03-18",
+      "breakaway_members": [
+        "OFF00051",
+        "OFF00282"
+      ],
+      "stayed_members": [
+        "OFF00052",
+        "OFF00167",
+        "OFF00280",
+        "OFF00301",
+        "OFF00400",
+        "OFF00401"
+      ]
+    },
+    {
+      "gang_id": "GANG009",
+      "fragment_event_date": "2025-09-14",
+      "breakaway_members": [
+        "OFF00005"
+      ],
+      "stayed_members": [
+        "OFF00012",
+        "OFF00088",
+        "OFF00325",
+        "OFF00602"
+      ]
+    },
+    {
+      "gang_id": "GANG011",
+      "fragment_event_date": "2024-11-03",
+      "breakaway_members": [
+        "OFF00211",
+        "OFF00437"
+      ],
+      "stayed_members": [
+        "OFF00175",
+        "OFF00202",
+        "OFF00282",
+        "OFF00344",
+        "OFF00554"
+      ]
+    },
+    {
+      "gang_id": "GANG013",
+      "fragment_event_date": "2025-03-19",
+      "breakaway_members": [
+        "OFF00574"
+      ],
+      "stayed_members": [
+        "OFF00026",
+        "OFF00170",
+        "OFF00176",
+        "OFF00350",
+        "OFF00356",
+        "OFF00547"
+      ]
+    },
+    {
+      "gang_id": "GANG014",
+      "fragment_event_date": "2023-08-13",
+      "breakaway_members": [
+        "OFF00062"
+      ],
+      "stayed_members": [
+        "OFF00166",
+        "OFF00258",
+        "OFF00272",
+        "OFF00430"
+      ]
+    },
+    {
+      "gang_id": "GANG015",
+      "fragment_event_date": "2024-01-09",
+      "breakaway_members": [
+        "OFF00189"
+      ],
+      "stayed_members": [
+        "OFF00023",
+        "OFF00238",
+        "OFF00273",
+        "OFF00293",
+        "OFF00321",
+        "OFF00331"
+      ]
+    },
+    {
+      "gang_id": "GANG016",
+      "fragment_event_date": "2025-02-03",
+      "breakaway_members": [
+        "OFF00043",
+        "OFF00439"
+      ],
+      "stayed_members": [
+        "OFF00071",
+        "OFF00078",
+        "OFF00283",
+        "OFF00314",
+        "OFF00426",
+        "OFF00552"
+      ]
+    },
+    {
+      "gang_id": "GANG017",
+      "fragment_event_date": "2024-05-20",
+      "breakaway_members": [
+        "OFF00597"
+      ],
+      "stayed_members": [
+        "OFF00074",
+        "OFF00091",
+        "OFF00096",
+        "OFF00253",
+        "OFF00263",
+        "OFF00353",
+        "OFF00403"
+      ]
+    },
+    {
+      "gang_id": "GANG018",
+      "fragment_event_date": "2024-12-04",
+      "breakaway_members": [
+        "OFF00497"
+      ],
+      "stayed_members": [
+        "OFF00286",
+        "OFF00350",
+        "OFF00452",
+        "OFF00566",
+        "OFF00634"
+      ]
+    },
+    {
+      "gang_id": "GANG019",
+      "fragment_event_date": "2024-03-07",
+      "breakaway_members": [
+        "OFF00625"
+      ],
+      "stayed_members": [
+        "OFF00025",
+        "OFF00155",
+        "OFF00253",
+        "OFF00303",
+        "OFF00515",
+        "OFF00521"
+      ]
+    },
+    {
+      "gang_id": "GANG022",
+      "fragment_event_date": "2025-01-30",
+      "breakaway_members": [
+        "OFF00118",
+        "OFF00603"
+      ],
+      "stayed_members": [
+        "OFF00058",
+        "OFF00236",
+        "OFF00347",
+        "OFF00572"
+      ]
+    }
+  ],
+  "date_range": [
+    "2023-01-01",
+    "2025-12-31"
+  ],
+  "row_counts": {
+    "districts": 30,
+    "police_stations": 122,
+    "offenders": 660,
+    "victims": 2400,
+    "incidents": 46342,
+    "network_edges": 33717,
+    "weekly_station_stats": 16389
+  }
+}

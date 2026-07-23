@@ -37,27 +37,27 @@ static production build the same way.
 If a page shows "Failed to load data", you skipped step 1 — run
 `python generate_data.py` and restart the dev server.
 
-> **Note on the dataset.** The generated CSVs are **not committed to this
-> repository** (they're ~11 MB of derived, fully synthetic data). Regenerate
-> them in one command with `python generate_data.py`, then run `npm run dev`.
+> **Note on the dataset.** The synthetic CSVs in `./data/` are committed, so the
+> app runs and deploys with no extra steps. They are fully fictional and
+> machine-generated — regenerate them any time with `python generate_data.py`.
 
 ---
 
 ## Deployment (Vercel)
 
-This is a static Vite build, deployable on Vercel with zero config beyond the
-included `vercel.json`. Because the dataset is not in git, the build **regenerates
-it on Vercel** — `vercel.json` sets:
+This is a static Vite build — deploy with zero config beyond the included
+`vercel.json`, which sets:
 
 ```
-pip3 install --quiet numpy pandas faker && python3 generate_data.py && npm run build
+buildCommand: npm run build      (= node scripts/prepare-data.mjs && vite build)
+outputDirectory: dist
+framework: vite
 ```
 
-so `data/` is recreated (deterministically, fixed seed) and copied into the
-static output on every deploy. To deploy: push this repo to GitHub, then import
-it at [vercel.com/new](https://vercel.com/new) — Vercel auto-detects Vite and
-uses the build command above. Routing uses `HashRouter`, so no SPA rewrite rules
-are needed.
+No Python runs at deploy time: the committed `data/` is copied into the static
+output by `scripts/prepare-data.mjs` during the build. To deploy: push this repo
+to GitHub, then import it at [vercel.com/new](https://vercel.com/new) — Vercel
+auto-detects Vite. Routing uses `HashRouter`, so no SPA rewrite rules are needed.
 
 ---
 

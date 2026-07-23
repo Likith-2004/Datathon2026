@@ -6,9 +6,9 @@ dist/
 .vercel/
 
 # ---- generated synthetic data ----
-# The fictional dataset is NOT committed. It is hosted on Kaggle (see README)
-# and regenerated locally / on deploy by `python generate_data.py`.
-/data/
+# The source dataset (data/) IS committed so the deploy is a plain Vite build
+# (no Python at deploy time). It's also mirrored on Kaggle (see README).
+# public/data/ is a build artifact recreated by scripts/prepare-data.mjs.
 /public/data/
 
 # ---- python ----
