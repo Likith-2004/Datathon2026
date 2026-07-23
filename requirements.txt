@@ -1,9 +1,5 @@
-Flask
-Flask-Cors
+# Only what generate_data.py needs. Keep this minimal so the Vercel build
+# (which regenerates the synthetic dataset) installs fast and reliably.
 numpy
 pandas
 faker
-scipy
-networkx
-scikit-learn
-plotly
