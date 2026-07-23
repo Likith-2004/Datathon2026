@@ -1,0 +1,6 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "outputDirectory": "dist",
+  "buildCommand": "pip3 install --quiet numpy pandas faker && python3 generate_data.py && npm run build"
+}

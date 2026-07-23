@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(
+      1200px 700px at 80% -10%,
+      rgba(124, 92, 255, 0.12),
+      transparent
+    ),
+    radial-gradient(900px 600px at -10% 10%, rgba(56, 225, 201, 0.1), transparent),
+    #070a12;
+  color: #e7ecf4;
+  font-family: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* thin scrollbars */
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-thumb {
+  background: #26304a;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+@layer components {
+  .card {
+    @apply rounded-xl border border-edge bg-panel/70 backdrop-blur;
+  }
+  .btn {
+    @apply rounded-lg border border-edge bg-panel px-3 py-1.5 text-sm text-slate-200
+      transition hover:border-accent/60 hover:text-white active:scale-[0.98];
+  }
+  .btn-active {
+    @apply border-accent/70 bg-accent/10 text-white;
+  }
+  .chip {
+    @apply rounded-full border border-edge px-2.5 py-0.5 text-xs text-slate-300;
+  }
+  .label {
+    @apply text-[11px] uppercase tracking-wider text-slate-400;
+  }
+  .input {
+    @apply w-full rounded-lg border border-edge bg-ink/60 px-3 py-1.5 text-sm
+      text-slate-100 outline-none focus:border-accent/60;
+  }
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 4px;
+  border-radius: 999px;
+  background: #26304a;
+  outline: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #38e1c9;
+  cursor: pointer;
+  border: 2px solid #0b101a;
+  box-shadow: 0 0 0 3px rgba(56, 225, 201, 0.2);
+}
+input[type="range"]::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #38e1c9;
+  cursor: pointer;
+  border: 2px solid #0b101a;
+}

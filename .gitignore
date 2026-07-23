@@ -1,0 +1,29 @@
+# ---- dependencies ----
+node_modules/
+
+# ---- build output ----
+dist/
+.vercel/
+
+# ---- generated synthetic data ----
+# The fictional dataset is NOT committed. It is hosted on Kaggle (see README)
+# and regenerated locally / on deploy by `python generate_data.py`.
+/data/
+/public/data/
+
+# ---- python ----
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ---- logs / OS junk ----
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# ---- secrets / env ----
+.env
+.env.*
+!.env.example

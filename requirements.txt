@@ -1,0 +1,9 @@
+Flask
+Flask-Cors
+numpy
+pandas
+faker
+scipy
+networkx
+scikit-learn
+plotly
