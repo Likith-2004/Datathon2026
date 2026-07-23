@@ -39,13 +39,7 @@ If a page shows "Failed to load data", you skipped step 1 — run
 
 > **Note on the dataset.** The generated CSVs are **not committed to this
 > repository** (they're ~11 MB of derived, fully synthetic data). Regenerate
-> them in one command with `python generate_data.py`, or download the exact
-> prebuilt dataset from Kaggle:
->
-> 📊 **Kaggle dataset:** _<add your Kaggle dataset link here>_
->
-> If you download it from Kaggle, unzip the files into a `./data/` folder at the
-> repo root, then run `npm run dev`.
+> them in one command with `python generate_data.py`, then run `npm run dev`.
 
 ---
 
